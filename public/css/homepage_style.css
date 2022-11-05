@@ -1,0 +1,217 @@
+/*=====================FONT ===========================*/
+@font-face {
+    font-family: 'Poppins';
+              src: url('./../font/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+              src: url('./../font/Montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+
+body{
+  padding: 0px;
+  font-family:  "Poppins", Arial, Verdana, sans-serif;
+  overflow-x: hidden;
+
+}
+
+.btn-sd{
+  background-color: #150c64;
+  color: white;
+  padding: 1em;
+  border-radius: 5px;
+  transition: 300ms ease;
+}
+
+.btn-sd:hover{
+    background-color:#3355c4;
+    color: white;
+}
+
+.mt-30{
+  margin-top: 30px;
+}
+
+/* =================================  NAV BAR ===========================================*/
+nav.navbar{
+    padding: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navicon img {
+  height: 80px;
+}
+
+.nav-menu {
+  display: flex;
+
+}
+
+.nav-menu .nav-item {
+  margin: 0 1em 0 2em;
+  text-decoration: none;
+  color: #150c64;
+  letter-spacing: .1em;
+}
+
+.spacer{
+  width: 5vw;
+}
+
+nav .close {
+  display: none;
+}
+
+
+/*==================================== SECTION PHRASE D'ACCROCHE ==========================*/
+
+.section_phase_daccroche{
+  padding: 4em;
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #bbb5fd;
+  background-image: linear-gradient(346deg, #bbb5fd 0%, #fadab4 33%, #ffffff 66%);
+
+
+  border-radius: 0 0 999px 999px;;
+  margin-bottom: 5em;
+
+}
+
+.section_phase_daccroche h1 {
+  text-align: center;
+  color: #150c64;
+  font-size: 5.5em;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-bottom: .5em;
+}
+
+.section_phase_daccroche .description {
+  display: block;
+  width: 40vw;
+  text-align: center;
+  line-height: 2em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.section_phase_daccroche button {
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.section_phase_daccroche .section-illustration{
+    width: 80vw;
+}
+
+.illustration-block{
+  display: none;
+}
+
+
+
+/*====================================== SECTION 2 ===============================================================================*/
+
+
+
+
+
+
+
+/*====================================== MOBILE STYLE ===============================================================================*/
+@media only screen and (max-width: 450px){
+
+  nav.navbar{
+      padding: 1em;
+      padding-left: 2em;
+      padding-right: 2em;
+  }
+
+  .navicon img {
+    height: 50px;
+  }
+
+  .nav-menu{
+    display: none;
+  }
+
+  .spacer{
+    display: none;
+  }
+
+    nav .close {
+      display: block;
+      font-size: 2em;
+      padding: none;
+    }
+
+  .section_phase_daccroche{
+    padding: 1em;
+    padding-top: 1em;
+    border-radius: 0 0 999px 999px;;
+    margin-bottom: 2em;
+    padding-bottom: 3em;
+
+  }
+
+  .section_phase_daccroche h1 {
+    font-size: 2.8em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .section_phase_daccroche .description {
+    display: block;
+    width: 90vw;
+    text-align: center;
+    line-height: 2em;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  .section_phase_daccroche button {
+      font-size: 1.2em;
+      margin-top: 2em;
+  }
+
+  .section_phase_daccroche .section-illustration{
+      display: none;
+  }
+
+  .illustration-block{
+    display: block;
+    margin-top: 5em;
+    padding: 0px;
+  }
+
+    .domaine_img{
+      width: 100vw;
+      padding-left: .8em;
+      padding-right: .8em;
+    }
+
+    .img2{
+      position: relative;
+      top: -2em;
+    }
+
+    .img3{
+      position: relative;
+      top: 1em;
+      left: 2em;
+    }
+
+
+
+}
